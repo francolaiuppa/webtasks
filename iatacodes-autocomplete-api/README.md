@@ -1,4 +1,4 @@
-# IATACodes Nearby API
+# IATACodes Autocomplete API
 Find airports and cities by query string.
 
 # API Docs
@@ -17,7 +17,7 @@ wt serve -s API_KEY=YOUR_API_KEY_GOES_HERE index.js
 You have two ways to create/publish the webtask, first one is to use the Git URL which always uses latest version of this webtask.
 
 ```
-wt create -s API_KEY=YOUR_API_KEY_GOES_HERE --name optional-name-for-your-webtask https://raw.githubusercontent.com/francolaiuppa/webtasks/master/iatacodes-nearby-api/index.js
+wt create -s API_KEY=YOUR_API_KEY_GOES_HERE --name optional-name-for-your-webtask https://raw.githubusercontent.com/francolaiuppa/webtasks/master/iatacodes-autocomplete-api/index.js
 ```
 
 Alternatively you can use a local file
