@@ -1,5 +1,4 @@
 var request = require('request');
-var pd = require('pretty-data').pd;
 const HEADERS = {
   'Content-Disposition': 'inline',
   'Content-Type': 'application/json'
