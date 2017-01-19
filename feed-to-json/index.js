@@ -5,5 +5,10 @@ module.exports = function(ctx, cb) {
     return cb(new Error('Missing `URL` querystring parameter'));
   }
 
-  FEED(ctx.data.url, cb);
+  try {
+    FEED(ctx.data.url, cb);
+  }
+  catch (e) {
+    cb(new Error(e));
+  }
 };
